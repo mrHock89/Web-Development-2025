@@ -19,3 +19,4 @@ Starting Again Web Development in 2025
 - headings(h1-h6), paragraph(p), image(img)
 - Learned about h1-h6, img, form, input, list, textarea, label, input, buttons tags
 - Basic Html is revised like tables, forms, semantics or html structure etc
+- Also learns about video, figure and other tags
