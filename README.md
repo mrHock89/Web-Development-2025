@@ -9,6 +9,10 @@ Starting Again Web Development in 2025
 - You will learn by doing this.
 ## Learning:
 ### HTML:
+
+#### Emmit shortcuts:
+- div.box will clera a div with class name of box
+
 #### Note:
 - Do not try to learn Everything in HTML
 - Learn on the go and when it required
@@ -20,3 +24,10 @@ Starting Again Web Development in 2025
 - Learned about h1-h6, img, form, input, list, textarea, label, input, buttons tags
 - Basic Html is revised like tables, forms, semantics or html structure etc
 - Also learns about video, figure and other tags
+
+### CSS: 
+#### Note:
+- First thing is to choose the correct font. Font changes look, feel and impression
+- Second thing is images
+- Third is Button, card , list 
+- Hole idea is to Select the element and style the element.
