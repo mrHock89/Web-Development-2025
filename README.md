@@ -4,6 +4,8 @@ Starting Again Web Development in 2025
 - Fllowing Hitesh sir's Udemy course.
 - This time I will do my best to become a programmer.
 
+# Share to online whatever you are learning
+
 # Advices From Hitesh Sir:
 - Do not try to learn everything.
 - You will learn by doing this.
@@ -38,8 +40,13 @@ Starting Again Web Development in 2025
 - create Login page using html and css
 - Created SignUp page as Assignment
 - Learnt about transiton property
+- transition, hover, transform
+
+#### DOM | Selector
+![DOM-Selector_relation](./Section%206/01_CSS/02_selectors/dom_relation.png)
 
 
 ### To-Do:
 - Create a signup page along with login page [Done]
 - Transiton to button after hovering over it [Done]
+- Create a project using current learning and share it []
