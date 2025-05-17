@@ -45,7 +45,21 @@ Starting Again Web Development in 2025
 #### DOM | Selector
 ![DOM-Selector_relation](./Section%206/01_CSS/02_selectors/dom_relation.png)
 
-
+### Types of Selector:
+- mainly 11 types
+- article p{} means all p which are descendent of article.(Right to left)
+- 1. Universal Selector
+- 2. Type Selector 
+- 3. Class selector
+- 4. ID selector 
+- 5. Attribute Selector
+- 6. Descendent Selector [Have to Revise]
+- 7. Child selector [Have to Revise]
+- 8. Adjacent Sibling Selector [Have to Revise]
+- 9. General Sibling Selector  [Have to Revise]
+- 10. Pseudo-class Selector [Have to Revise]
+- 11. Pseudo-element Selector [Have to Revise]
+- 12. Grouping Selector [Have to Revise]
 ### To-Do:
 - Create a signup page along with login page [Done]
 - Transiton to button after hovering over it [Done]

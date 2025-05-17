@@ -1,0 +1,51 @@
+/* 1. Universal Selector */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* 2. Type Selector */
+p{
+    /* margin is between to element */
+    margin: 10px 15px 10px 15px; 
+    font-size: 16px;
+    /* padding  is border and content*/
+    padding: 1px 2px 3px 4px;
+}
+/* 3. Class selector */
+.highlight{
+    background-color: blue;
+}
+
+/* 4. ID selector */
+#header{
+    background-color: green;
+}
+/* 5. Attribute Selector */
+input[type="text"]{
+    border: 1px solid orange;
+}
+
+/* All of the above are the bacis */
+
+/* 6. Descendent Selector */
+article p{
+    font-style: italic;
+    font-weight: bold;
+    background-color: orangered;
+}
+
+/* 7. Child selector */
+div > p{
+    background-color: rgb(114, 26, 26);
+}
+/* 8. Adjacent Sibling Selector */
+
+/* 9. General Sibling Selector */
+
+/* 10. Pseudo-class Selector */
+
+/* 11. Pseudo-element Selector */
+
+/* 12. Grouping Selector */
