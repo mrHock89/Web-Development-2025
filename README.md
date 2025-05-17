@@ -9,3 +9,11 @@ Starting Again Web Development in 2025
 - You will learn by doing this.
 ## Learning:
 ### HTML:
+#### Note:
+- Do not try to learn Everything in HTML
+- Learn on the go and when it required
+- Learn about how to find info and where to find
+
+#### Learning HTML
+- Emmit extension shortcuts for easy code generate
+- headings(h1-h6), paragraph(p), image(img)
