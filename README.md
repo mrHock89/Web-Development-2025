@@ -31,3 +31,13 @@ Starting Again Web Development in 2025
 - Second thing is images
 - Third is Button, card , list 
 - Hole idea is to Select the element and style the element.
+
+#### CSS Learning:
+- display, flex, color, 
+- types of styling our html page
+- create Login page using html and css
+- Created SignUp page as Assignment
+
+
+### To-Do:
+- Create a signup page along with login page [Done]
