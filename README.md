@@ -37,7 +37,9 @@ Starting Again Web Development in 2025
 - types of styling our html page
 - create Login page using html and css
 - Created SignUp page as Assignment
+- Learnt about transiton property
 
 
 ### To-Do:
 - Create a signup page along with login page [Done]
+- Transiton to button after hovering over it [Done]
