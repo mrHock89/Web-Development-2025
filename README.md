@@ -35,6 +35,8 @@ Starting Again Web Development in 2025
 - Hole idea is to Select the element and style the element.
 
 #### CSS Learning:
+
+##### 17th May
 - display, flex, color, 
 - types of styling our html page
 - create Login page using html and css
@@ -42,9 +44,14 @@ Starting Again Web Development in 2025
 - Learnt about transiton property
 - transition, hover, transform
 
+##### 18th May
+- Pseudo Elements and class
+- Navbar, postion, after
+
 #### DOM | Selector
 ![DOM-Selector_relation](./Section%206/01_CSS/02_selectors/dom_relation.png)
 
+### Notes: CSS
 ### Types of Selector:
 - mainly 11 types
 - article p{} means all p which are descendent of article.(Right to left)
@@ -60,7 +67,13 @@ Starting Again Web Development in 2025
 - 10. Pseudo-class Selector [Have to Revise]
 - 11. Pseudo-element Selector [Have to Revise]
 - 12. Grouping Selector [Have to Revise]
+
 ### To-Do:
 - Create a signup page along with login page [Done]
 - Transiton to button after hovering over it [Done]
 - Create a project using current learning and share it []
+- Commin Soon page [DONE]
+
+## Projects Screenshorts
+### 02 - Coming Soon Lnading Page
+![Coming Soon](./Peojects%20ScreenShots/coming_soon.png)
