@@ -82,6 +82,7 @@ Starting Again Web Development in 2025
 - Create a project using current learning and share it []
 - Commin Soon page [DONE]
 - Project on FlexBox []
+- Create A layout and design it through grid
 
 ## Projects Screenshorts
 ### 02 - Coming Soon Lnading Page
