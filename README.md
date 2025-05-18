@@ -9,6 +9,13 @@ Starting Again Web Development in 2025
 # Advices From Hitesh Sir:
 - Do not try to learn everything.
 - You will learn by doing this.
+
+## UseFull Websites:
+- Svg Creation: https://getwaves.io/
+- Fonts: https://fonts.google.com/
+
+
+
 ## Learning:
 ### HTML:
 
@@ -33,6 +40,7 @@ Starting Again Web Development in 2025
 - Second thing is images
 - Third is Button, card , list 
 - Hole idea is to Select the element and style the element.
+- Try to use flex box for Navigationbar and Grid for others
 
 #### CSS Learning:
 
@@ -46,7 +54,7 @@ Starting Again Web Development in 2025
 
 ##### 18th May
 - Pseudo Elements and class
-- Navbar, postion, after
+- Navbar, postion, after, linear-gradient()
 
 #### DOM | Selector
 ![DOM-Selector_relation](./Section%206/01_CSS/02_selectors/dom_relation.png)
@@ -73,6 +81,7 @@ Starting Again Web Development in 2025
 - Transiton to button after hovering over it [Done]
 - Create a project using current learning and share it []
 - Commin Soon page [DONE]
+- Project on FlexBox []
 
 ## Projects Screenshorts
 ### 02 - Coming Soon Lnading Page
