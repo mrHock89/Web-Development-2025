@@ -83,6 +83,8 @@ Starting Again Web Development in 2025
 - Commin Soon page [DONE]
 - Project on FlexBox []
 - Create A layout and design it through grid
+- penta grid layout design
+- Create 4 curds
 
 ## Projects Screenshorts
 ### 02 - Coming Soon Lnading Page
