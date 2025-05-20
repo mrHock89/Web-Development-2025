@@ -85,6 +85,7 @@ Starting Again Web Development in 2025
 - Create A layout and design it through grid
 - penta grid layout design
 - Create 4 curds
+- Responsive Website
 
 ## Projects Screenshorts
 ### 02 - Coming Soon Lnading Page
