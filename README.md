@@ -76,17 +76,28 @@ Starting Again Web Development in 2025
 - 11. Pseudo-element Selector [Have to Revise]
 - 12. Grouping Selector [Have to Revise]
 
+
+
+##### 21st May 2025: 
+### Bootstrap:
+### Did CSS AFN
+
+## TainWind Css:
+
+
 ### To-Do:
 - Create a signup page along with login page [Done]
 - Transiton to button after hovering over it [Done]
-- Create a project using current learning and share it []
+- Create a project using current learning and share it [Done]
 - Commin Soon page [DONE]
 - Project on FlexBox []
 - Create A layout and design it through grid
 - penta grid layout design
 - Create 4 curds
-- Responsive Website
+- Responsive Website [Done]
+- Bootstrap Assignment
 
 ## Projects Screenshorts
+
 ### 02 - Coming Soon Lnading Page
 ![Coming Soon](./Peojects%20ScreenShots/coming_soon.png)
