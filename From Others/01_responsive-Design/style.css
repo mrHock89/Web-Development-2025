@@ -8,134 +8,45 @@ html, body{
     height: 100%;
     width: 100%;
 }
-/* #box{
-    height: 500px;
-    background-color: crimson;
-    width: 500px;
-}
-#inner{
-    height: 50vh;
-    width: 50vw;
-    background-color: royalblue;
-} */
-/* h1{
-    font-size: 7vh;
-} */
-/* 
-vmax - large between vw and vh
-vmin  - small between vw and vh
-*/
-/* .h1{
-    font-size: 7vmax; 
-}
-.h2{
-    font-size: 7vmin;
-} */
 
-/* 
-em -
-rem -
-*/
-/* .parent{
-    background-color: #5e1919;
-    width: 40%;
-    font-size: 40px;
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
 }
-h1{
-    font-size: 4.5rem;
-}
-h2{
-    font-size: 3rem;
-}
-h3{
-    font-size: 5rem;
-} */
-/* 
-#box{
-    height: 250px;
-    width: 250px;
-    background-color: crimson;
-}
-#box2{
-    height: 20%;
-    width: 20%;
-    background-color: royalblue;
-}
-.inner{
-    height: 50%;
-    width: 50%;
-    background-color: violet;
-}
-
-#box3{
-    height: 17vh;
-    width: 20vw;
-    background-color: crimson;
-}
-.inner2{
-    height: 10%;
-    background-color: #fff;
-    width: 10%;
-} */
-
-/* vh and vw */
-
-/* #box{
-    height: 30vh;
-    width: 20vw;
-    background-color: crimson;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
-#inner{
-    background-color: green;
-    height: 10vh;
-    width: 15vw;
-} */
- /* #box{
-    height: 50vmin;
-    background-color: red;
-    width: 50vmin;
- } */
-
- /* #box{
-    background-color: crimson;
-    font-size: 5em;
- }
- #inner{
-    font-size: 6rem;
- } */
-
- #parent{
+html, body {
     height: 100%;
     width: 100%;
-    background-color: rgb(94, 80, 83);
+}
+#box{
+    height: 100vh;
+    width: 100vw;
+    background-color: crimson;
+    transition: all 0.3s ease-in-out;
     display: flex;
     align-items: center;
-    justify-content: space-around;
-    flex-wrap: wrap;
-    flex-direction: column;
-    
- }
- .child1{
-    height: 500px;
-    width: 500px;
-    background-color: crimson;
-    border: 5px solid black;
+    justify-content: center;
+}
+#inner{
+    height: 300px;
+    width: 300px;
+    background-color: rgb(22, 123, 206);
+    transition: all 0.3s ease-in-out;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
 
- }
- .child2{
-    height: 500px;
-    width: 500px;
-    background-color: crimson;
-    border: 5px solid black;
-
- }
- .child3{
-    height: 500px;
-    width: 500px;
-    background-color: crimson;
-    border: 5px solid black;
-
- }
+@media (max-width: 600px){
+    #inner{
+        border-radius: 50%;
+        background-color: rgb(2, 6, 19);
+    }
+}
+@media (min-width: 400px){
+    #inner{
+        border-radius: 50%;
+        background-color: rgb(152, 159, 179);
+    }
+}
