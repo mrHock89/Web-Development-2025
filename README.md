@@ -56,6 +56,11 @@ Starting Again Web Development in 2025
 - Pseudo Elements and class
 - Navbar, postion, after, linear-gradient()
 
+## 23rd May Started Learning JavaScript
+### JavaScript:
+- ReLearn Some concept of JavaScript
+- Did some exrcises
+
 #### DOM | Selector
 ![DOM-Selector_relation](./Section%206/01_CSS/02_selectors/dom_relation.png)
 
@@ -97,6 +102,7 @@ Starting Again Web Development in 2025
 - Responsive Website [Done]
 - Bootstrap Assignment
 - Simple Project using Tailwind Css
+- Projects On TailwindCss
 
 ## Projects Screenshorts
 
