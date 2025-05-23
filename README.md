@@ -96,6 +96,7 @@ Starting Again Web Development in 2025
 - Create 4 curds
 - Responsive Website [Done]
 - Bootstrap Assignment
+- Simple Project using Tailwind Css
 
 ## Projects Screenshorts
 
