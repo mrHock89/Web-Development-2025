@@ -80,19 +80,12 @@
 // console.log(college1.clgInfo());
 
 // Using Function
-function Person(name){
-    this.name = name;
-}
-Person.prototype.description = function(){
-    return `Hello, ${this.name}`;
-}
 
-function Address(name, adr){
-    Person.call(this.name);
-    this.adr = adr;
+function User(name){
+    this.name = name;
+    this.sayHi = function(){
+        return `My name is ${this.name}}`;
+    }
 }
-Address.prototype = Object.create(Person.prototype);
-Address.prototype.constructor = Address;
-Address,prototype.address = function(){
-    return `${this.name }is from ${this.adr}}`;
-}
+let john = new User("Ani")
+console.log(john.sayHi())
