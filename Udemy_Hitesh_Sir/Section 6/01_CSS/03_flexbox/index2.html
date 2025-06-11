@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>FlexBox</title>
+    <style>
+        body,
+        html {
+            margin: 0;
+            padding: 0;
+        }
+        .container{
+            border: 1px solid rgb(14, 10, 10);
+        }
+        .rectangle{
+            height: 20px;
+            width: 20px;
+            border: 1px solid red;
+            margin: 10px;
+            padding: 10px;
+            text-align: center;
+            box-shadow: 4px 4px 10px rgba(0, 0, 0,9);
+        }
+        .box-1{
+            background-color: red;
+        }
+        .box-2{
+            background-color: rgb(90, 48, 48);
+        }
+        .box-3{
+            background-color: rgb(48, 136, 16);
+        }
+        .box-4{
+            background-color: rgb(26, 96, 162);
+        }
+        .box-5{
+            background-color: rgb(169, 143, 17);
+        }
+        .box-1{
+            background-color: red;
+        }
+        .box-1{
+            background-color: red;
+        }
+        .box-1{
+            background-color: red;
+        }
+        .box-1{
+            background-color: red;
+        }
+        .box-1{
+            background-color: red;
+        }
+        .flex-content{
+            display: flex;
+        }
+    </style>
+</head>
+
+<body>
+    <h1>Flexbox Master Class</h1>
+    <div class="container">
+        <h1>1. Default Flex(Row)</h1>
+        <div class="flex-content">
+
+            <div class="rectangle box-1">1</div>
+            <div class="rectangle box-2">2</div>
+            <div class="rectangle box-3">3</div>
+            <div class="rectangle box-4">4</div>
+            <div class="rectangle box-5">5</div>
+            <div class="rectangle box-1">6</div>
+            <div class="rectangle box-2">7</div>
+            <div class="rectangle box-3">8</div>
+            <div class="rectangle box-4">9</div>
+            <div class="rectangle box-5">10</div>
+
+        </div>
+    </div>
+    <div class="container">
+        <h1>2. Flex Direction COlums</h1>
+        <div class="flex-content" style="flex-direction: column;">
+
+            <div class="rectangle box-1">1</div>
+            <div class="rectangle box-2">2</div>
+            <div class="rectangle box-3">3</div>
+            <div class="rectangle box-4">4</div>
+            <div class="rectangle box-5">5</div>
+            <div class="rectangle box-1">6</div>
+            <div class="rectangle box-2">7</div>
+            <div class="rectangle box-3">8</div>
+            <div class="rectangle box-4">9</div>
+            <div class="rectangle box-5">10</div>
+
+        </div>
+    </div>
+    <div class="container">
+        <h1>3. Justify Content: Space-Between</h1>
+        <div class="flex-content" style="flex-wrap: wrap; align-content: center;">
+
+            <div class="rectangle box-1">1</div>
+            <div class="rectangle box-2">2</div>
+            <div class="rectangle box-3">3</div>
+            <div class="rectangle box-4">4</div>
+            <div class="rectangle box-5">5</div>
+            <div class="rectangle box-1">6</div>
+            <div class="rectangle box-2">7</div>
+            <div class="rectangle box-3">8</div>
+            <div class="rectangle box-4">9</div>
+            <div class="rectangle box-5">10</div>
+
+        </div>
+    </div>
+</body>
+
+</html>
