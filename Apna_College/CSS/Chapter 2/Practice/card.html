@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Card Hover Effect</title>
+    <style>
+        .card{
+            width: 200px;
+            border: 2px solid black;
+            display: inline-block;
+            margin-top: 10px;
+            border-radius: 15px;
+            overflow: hidden;
+            box-shadow: 0 4px 8px goldenrod;
+            margin-left: 20px;
+            transition: all 0.3s ease-in-out 0.5s;
+            background-color: #e4dcdc;
+        }
+        .card:hover{
+            box-shadow: 0 8px 10px crimson;
+            transform: scale(1.2);
+            margin-top: 50px;
+            margin-left: 50px;
+            margin-right: 50px;
+        }
+        img{
+            width: 100%;
+            background-color: black;
+        }
+        .desc{
+            text-align: center;
+        }
+        body{
+            background-color: #000000;
+        }
+    </style>
+</head>
+<body>
+    <div class="card">
+        <img src="https://img.freepik.com/premium-vector/man-professional-business-casual-young-avatar-icon-illustration_1277826-623.jpg" alt="Boy">
+        <div class="desc">
+            <h3>Rahul Roy</h3>
+            <p>Data Analyst</p>
+        </div>
+    </div>
+    <div class="card">
+        <img src="https://hugo-profile.netlify.app/images/hero.svg" alt="girl">
+        <div class="desc">
+            <h3>Neha Reddy</h3>
+            <p>Software Engineer</p>
+        </div>
+    </div>
+</body>
+</html>

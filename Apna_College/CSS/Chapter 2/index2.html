@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sibling selector</title>
+    <style>
+        p~h2 {
+            color: crimson;
+        }
+        p{
+            transition: all 0.3s ease-in-out;
+        }
+
+        p:hover::before {
+            content: "👉 ";
+        }
+
+        p:hover::after {
+            content: " ✨";
+        }
+    </style>
+</head>
+
+<body>
+    <p>Hello Guys</p>
+    <h2>A</h2>
+    <h2>b</h2>
+    <h2>c</h2>
+    <div>
+        <h2>D</h2>
+    </div>
+</body>
+
+</html>
