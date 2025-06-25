@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Smile Face</title>
+    <style>
+        .face{
+            width: 400px;
+            height: 400px;
+            background-color: rgb(219, 132, 17);
+            border-radius: 50%;
+            border: 1px solid black;
+        }
+        .mouth{
+            width: 200px;
+            height: 80px;
+            background-color: brown;
+            border-radius: 0 0 50px 50px;
+            position: absolute;
+            top: 250px;
+            left: 100px;
+        }
+        .eye1, .eye2{
+            width: 50px;
+            height: 50px;
+            background-color: #000;
+            border-radius: 50%;
+            display: inline-block;
+            position: absolute;
+            left: 100px;
+            top: 100px;
+        }
+        .eye2{
+            left: 250px;
+            
+        }
+        .eye-ball1, .eye-ball2{
+            background-color: #fafafa;
+            height: 10px;
+            width: 10px;
+            border-radius: 50%;
+            display: inline-block;
+            position: absolute;
+            left: 120px;
+            top: 120px;
+        }
+        .eye-ball2{
+            left: 270px;
+        }
+    </style>
+</head>
+<body>
+    <div class="face">
+        <div class="mouth"></div>
+        <div class="eye">
+            <div class="eye1"></div>
+            <div class="eye2"></div>
+        </div>
+        <div class="tye-ball">
+            <div class="eye-ball1"></div>
+            <div class="eye-ball2"></div>
+        </div>
+    </div>
+</body>
+</html>
