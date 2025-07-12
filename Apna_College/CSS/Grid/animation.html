@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Animation</title>
+    <style>
+        .box {
+            height: 100px;
+            width: 300px;
+            background-color: pink;
+            animation-name: colorAnimate, fontAnimation, widthAnimate;
+            animation-duration: 2s;
+            animation-timing-function: ease-in-out;
+            animation-iteration-count: infinite;
+            animation-direction: alternate-reverse;
+            /* animation: widthAnimate 2s ease-in-out 0 infinite alternate-reverse; */
+        }
+
+        /* @keyframes widthAnimate {
+            from{
+                width: 300px;
+            }
+            to {
+                width: 500px;
+            }
+        }
+        @keyframes fontAnimation {
+            from {
+                font-size: 20px;
+            }
+
+            to {
+                font-size: 40px;
+            }
+        }
+
+        @keyframes colorAnimate{
+            from{
+                background-color: pink;
+            }
+            to {
+                background-color: greenyellow;
+                border-radius: 5%;
+            }
+        } */
+         @keyframes colorAnimate {
+            0%{
+                background-color: green;
+            }
+            50% {
+                background-color: yellow;
+            }
+            100% {
+                background-color: crimson;
+            }
+         }
+    </style>
+</head>
+
+<body>
+    <h1>Animation</h1>
+    <div class="box">Hello</div>
+</body>
+
+</html>

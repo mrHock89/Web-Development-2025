@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Assifnment</title>
+    <style>
+        .container {
+            height: 500px;
+            width: 100%;
+            display: grid;
+            grid-template-rows: 1fr 10fr 1fr;
+            row-gap: 10px;
+        }
+
+        .header, .sidebar, nav, main, .ads, .footer {
+            background-color: #FFBFCB;
+        }
+        .two {
+            display: grid;
+            grid-template-columns: 3fr 6fr 3fr;
+            column-gap: 10px;
+            background-color: #fff;
+        }
+        .four{
+            display: inherit;
+            row-gap: 10px;
+            grid-template-rows: 1fr 9fr;
+        }
+        @media (max-width: 720px){
+            .header {
+                grid-column: 1 / span 12;
+            }
+            nav {
+                grid-column: 1 / span 12;
+                grid-row: 2;
+            }
+            .sidebar {
+                grid-column: 1 / span 4;
+                grid-row: 3;
+            }
+            main {
+                grid-row: 3;
+                grid-column: 4/ span 12;
+            }
+
+            .ads {
+                grid
+            }
+        }
+    </style>
+</head>
+
+<body>
+    <div class="container">
+        <div class="header">header</div>
+        <div class="two">
+            <div class="sidebar">sidebar</div>
+            <div class="four">
+                <nav>navigation</nav>
+                <main>main</main>
+            </div>
+            <div class="ads">ads</div>
+        </div>
+        <div class="footer">footer</div>
+    </div>
+</body>
+
+</html>
