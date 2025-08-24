@@ -1,0 +1,10 @@
+universal margin and padding
+google fonts
+set background for photos
+main box height set using vh
+background size
+
+For btn-two
+size
+weight
+position
